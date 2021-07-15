@@ -1,0 +1,4 @@
+edgedb -I tutorial create-migration 
+
+
+edgedb -I tutorial migrate

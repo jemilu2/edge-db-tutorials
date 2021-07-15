@@ -1,7 +1,7 @@
 module default {
     type Person {
         required property first_name -> str;
-        required property last_name -> str;
+        property last_name -> str;
     }
     type Movie {
         required property title -> str;
