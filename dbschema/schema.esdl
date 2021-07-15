@@ -16,4 +16,7 @@ module default {
         required link director -> Person;
         multi link actors -> Person;
     }
+    alias PersonAlias := Person {
+        acted_in := Person.<actors[IS Movie]
+    };
 };

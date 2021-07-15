@@ -2,3 +2,6 @@ edgedb -I tutorial create-migration
 
 
 edgedb -I tutorial migrate
+
+## Cheatsheets
+https://www.edgedb.com/docs/cheatsheet/index
