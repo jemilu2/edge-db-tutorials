@@ -1,0 +1,4 @@
+SELECT Movie {
+    title,
+    year
+};
