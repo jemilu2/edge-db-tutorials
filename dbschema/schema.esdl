@@ -1,3 +1,5 @@
+using extension graphql;
+
 module default {
     type Person {
         required property first_name -> str;
